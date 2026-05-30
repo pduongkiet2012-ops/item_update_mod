@@ -1,0 +1,21 @@
+{
+"type":"solidpump",
+"name":"may khoan nuoc nho",
+"description":"máy khoan nước cỡ nhỏ sủ dụng cho may khoan thủy lực cấp 1",
+"size":"1",
+"hearth":100,
+"pumpAmount": 0.111,
+  "hasPower": false,
+  "requirements": [
+    { "item": "copper", "amount": 30 },
+    { "item": "lead", "amount": 10 }
+  ],
+  "research": {
+    "parent": "may-khoan-thuy-luc-t1",
+    "requirements": [
+      { "item": "copper", "amount": 500 },
+      { "item": "lead", "amount": 300 }
+    ]
+  },
+  "category": "production"
+}
