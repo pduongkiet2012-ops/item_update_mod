@@ -8,13 +8,13 @@
 "drillTime":200,
 "hasLiquids":true,
 "requirements":[
-{ "item":"copper", "amount":30}
-{ "item":"lead","amount":15}
+  { "item":"copper", "amount":30}
+  { "item":"lead","amount":15}
 ],
 "consume"{
-"liquid":"water",
-"amount":0.05,
-"booster":false}
+  "liquid":"water",
+  "amount":0.05,
+  "booster":false}
 },
 "category":"production",
 "research":"mechanical-drill"
