@@ -1,0 +1,28 @@
+{
+"type": "SolidPump",
+  "name": "Máy Khoan Nước Cỡ Lớn",
+  "description": "Thiết bị khai thác chất lỏng quy mô công nghiệp. Cần nguồn năng lượng lớn để vận hành, tốc độ hút nước cực kỳ khủng khiếp.",
+  "size": 3,
+  "health": 700,
+  "pumpAmount": 0.777,
+  "hasPower": true,
+  "requirements": [
+    { "item": "lead", "amount": 70 },
+    { "item": "silicon", "amount": 100 },
+    { "item": "graphite", "amount": 30 },
+    { "item": "titanium", "amount": 10 }
+  ],
+  "consume": {
+    "power": 1.666
+  },
+  "research": {
+    "parent": "blast-drill",
+    "requirements": [
+      { "item": "copper", "amount": 2500 },
+      { "item": "titanium", "amount": 1000 },
+      { "item": "silicon", "amount": 900 },
+      { "item": "graphite", "amount": 700 }
+    ]
+  },
+  "category": "production"
+}
