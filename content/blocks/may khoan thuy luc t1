@@ -11,8 +11,8 @@
   { "item":"copper", "amount":30}
   { "item":"lead","amount":15}
 ],
-"consume"{
-  "liquid":"water",
+"consume":{
+  "liquid":{"water",
   "amount":0.05,
   "booster":false}
 },
