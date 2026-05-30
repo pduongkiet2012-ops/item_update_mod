@@ -1,18 +1,18 @@
-{{
+{
 "type":"drill"
 "name":"khoan thủy lực"
 "description":"loại máy khoan sử dụng nước để khoan."
 "size":2,
 "health":200,
 "tier": 2,
-"drilltime":200,
-"hasliqiuds":true,
-"repuirements":[
+"drillTime":200,
+"hasLiquids":true,
+"requirements":[
 { "item":"copper", "amount":30}
 { "item":"lead","amount":15}
 ],
 "consume"{
-"liqiud":"water",
+"liquid":"water",
 "amount":0.05,
 "booster":false}
 },
