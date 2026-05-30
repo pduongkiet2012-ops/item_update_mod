@@ -1,0 +1,11 @@
+{
+  "name":"itemupdate",
+ "diSplayName":"vật phẩm nâng",
+  "author":"dkiet",
+  "description":"",
+  "version":"1",
+  "hidden":"true",
+
+  "mingameversion":"146"
+  "dependencies": []
+}
