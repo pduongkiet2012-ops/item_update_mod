@@ -4,7 +4,7 @@
   "author":"dkiet",
   "description":"",
   "version":"1",
-  "hidden":"true",
+  "hidden":"false",
 
   "mingameversion":"158"
   "dependencies": []
