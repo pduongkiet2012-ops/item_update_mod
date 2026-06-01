@@ -1,0 +1,16 @@
+{
+"type":"drill",
+"name": "máy khoan thủy lực cấp 2",
+"description":"tốt hơn máy cấp 1 ko sd điện lúc đầu",
+"size":"3",
+"health":500,
+"drillTime":140,
+"tier":4,
+"hasLiqiuds":true,
+"requirements: [
+{"item":"copper", "amount":44},
+{"item":"lead", "amount":38},
+{"item":"silicon":, "amount":38},
+{"item":"titanium", "amount":25},
+],
+"cosume":"
