@@ -14,8 +14,9 @@
 {"item":"titanium", "amount":25},
 ],
 "cosume":{
- "liqiud":"water",
- "amount":0.833,
- "booster":false
+ "liqiud":{
+  "liqiud":"water",
+  "amount":0.833,
+  "booster":false
  },
  "power":
