@@ -1,0 +1,48 @@
+{
+  "type": "GenericCrafter",
+  "name": "Lò Silicon Đại",
+  "description": "",
+  "size": 4,
+  "health": 1000,
+  "buildTime": 1200.0,
+  "craftTime": 120.0,
+  "itemCapacity": 50,
+  "liquidCapacity": 60,
+  
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  
+  "requirements": [
+    {"item": "lead", "amount": 195},
+    {"item": "titanium", "amount": 156},
+    {"item": "silicon", "amount": 150},
+    {"item": "plastanium", "amount": 104}
+  ],
+  
+  "consume": {
+    "power": 3000.0,
+    "items": [
+      {"item": "coal", "amount": 10},
+      {"item": "sand", "amount": 15},
+      {"item": "pyratite", "amount": 3}
+    ],
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.1667
+    }
+  },
+  
+  "outputItem": {"item": "silicon", "amount": 15},
+  
+  "category": "crafting",
+  "research": {
+    "parent": "silicon-crucible",
+    "requirements": [
+      {"item": "lead", "amount": 1800},
+      {"item": "titanium", "amount": 1200},
+      {"item": "silicon", "amount": 1200},
+      {"item": "plastanium", "amount": 600}
+    ]
+  }
+}
