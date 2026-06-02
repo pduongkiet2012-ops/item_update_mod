@@ -21,7 +21,7 @@
   ],
   
   "consume": {
-    "power": 3000.0,
+    "power": 50.0,
     "itemsInput": [
       {"item": "coal", "amount": 15},
       {"item": "sand", "amount": 15},
@@ -29,7 +29,7 @@
     ],
     "liquidInput": {
       "liquid": "water",
-      "amount": 0.1667
+      "amount": 1.0
     }
   },
   
