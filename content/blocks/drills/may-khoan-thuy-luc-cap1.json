@@ -15,7 +15,8 @@
   "liquid":{
     "liquid":"water",
     "amount":0.05,
-    "booster":false}
+    "booster":false
+  }
 },
 "category":"production",
 "research":"mechanical-drill"
