@@ -7,7 +7,7 @@
 "drillTime":140,
 "tier":4,
 "hasLiquids":true,
-"requirements: [
+"requirements": [
 {"item":"copper", "amount":44},
 {"item":"lead", "amount":38},
 {"item":"silicon", "amount":38},
@@ -30,7 +30,7 @@
  "reqiurements":[
   {"item":"copper", "amount":1150}
   {"item":"lead", "amount":920}
-  {"item":silicon", "amount":920}
+  {"item":"silicon", "amount":920}
   {"item":"titanium", "amount":920}
  ],
 },
