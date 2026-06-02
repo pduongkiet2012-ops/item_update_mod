@@ -1,11 +1,11 @@
 {
   "name":"item_update_mod",
- "diSplayName":"vật phẩm nâng",
+ "displayName":"vật phẩm nâng",
   "author":"dkiet",
   "description":"",
   "version":"1",
-  "hidden":"false",
+  "hidden":false,
 
-  "mingameversion":"154"
+  "minGameVersion":154,
   "dependencies": []
 }
