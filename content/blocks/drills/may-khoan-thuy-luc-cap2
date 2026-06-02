@@ -13,4 +13,9 @@
 {"item":"silicon":, "amount":38},
 {"item":"titanium", "amount":25},
 ],
-"cosume":"
+"cosume":{
+ "liqiud":"water",
+ "amount":0.833,
+ "booster":false
+ },
+ "power":
