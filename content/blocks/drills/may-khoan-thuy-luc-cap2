@@ -19,4 +19,20 @@
   "amount":0.833,
   "booster":false
  },
- "power":
+ "power":{
+ "usage":2.5,
+ "buffered":false,
+ "optional":true
+ }
+},
+"research":{
+ "parent":"laser-drill",
+ "reqiurements":[
+  {"item":"copper", "amount":1150}
+  {"item":"lead", "amount":920}
+  {"item":silicon", "amount":920}
+  {"item":"titanium", "amount":920}
+ ],
+},
+"category":"production"
+}
