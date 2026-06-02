@@ -1,17 +1,33 @@
 {
-  "type":"GenericCrafter",
-  "name":"máy nén than chì lớnc1",
-  "description":"",
-  "size":3,
-  "health":500,
-  "buildTime":20.0,
-  "craftTime":15.0,
-  "itemCapaticy":200,
-  "liquidCapaticy":100,
-  "hasItem":true,
-  "hasLiquids":true,
-  "hasPower":false,
-  "repuirements":[
-    {"item":"copper", "amount":30},
-    {"item":"lead", "amount":40},
-    
+  "type": "GenericCrafter",
+  "name": "Máy Nén Than Chì Lớnc1",
+  "description": "",
+  "size": 3,
+  "health": 1000,
+  "buildTime": 600.0,
+  "craftTime": 30.0,
+  "waitInput": true,
+  "itemCapacity": 120,
+  "liquidCapacity": 100,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": true,
+  "requirements": [
+    { "item": "lead", "amount": 180 },
+    { "item": "titanium", "amount": 140 },
+    { "item": "silicon", "amount": 120 }
+  ],
+  "consume": {
+    "power": 40.0,
+    "items": [
+      { "item": "coal", "amount": 10 }
+    ],
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.25
+    }
+  },
+  "outputItem": { "item": "graphite", "amount": 13 },
+  "category": "crafting",
+  "research": "multi-press"
+}
