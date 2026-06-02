@@ -12,9 +12,10 @@
   { "item":"lead","amount":15}
 ],
 "consume":{
-  "liquid":{"water",
-  "amount":0.05,
-  "booster":false}
+  "liquid":{
+    "liquid":"water",
+    "amount":0.05,
+    "booster":false}
 },
 "category":"production",
 "research":"mechanical-drill"
