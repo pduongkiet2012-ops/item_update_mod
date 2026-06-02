@@ -1,0 +1,36 @@
+{
+  "type": "GenericCrafter",
+  "name": "Máy Dệt Lượng Tử Lớn",
+  "description": "Phiên bản nâng cấp công nghiệp nặng, dệt vải lượng tử với tốc độ chóng mặt.",
+  "size": 3,
+  "health": 600,
+  "buildTime": 900.0,
+  "craftTime": 15.0,
+  "hasItems": true,
+  "hasPower": true,
+  "itemCapacity": 150,
+  "requirements": [
+    { "item": "lead", "amount": 234 },
+    { "item": "titanium", "amount": 216 },
+    { "item": "silicon", "amount": 135 }
+  ],
+  "consume": {
+    "power": 12.0,
+    "items": {
+      "items": [
+        { "item": "thorium", "amount": 10 },
+        { "item": "sand", "amount": 20 }
+      ]
+    }
+  },
+  "outputItem": { "item": "phase-fabric", "amount": 4 },
+  "category": "crafting",
+  "research": {
+    "parent": "phase-weaver",
+    "requirements": [
+      { "item": "lead", "amount": 16900 },
+      { "item": "titanium", "amount": 15600 },
+      { "item": "silicon", "amount": 9750 }
+    ]
+  }
+}
