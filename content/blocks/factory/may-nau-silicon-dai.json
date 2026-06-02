@@ -6,6 +6,7 @@
   "health": 1000,
   "buildTime": 1200.0,
   "craftTime": 30.0,
+  " waitinput":true,
   "itemCapacity": 150,
   "liquidCapacity": 60,
   
@@ -22,12 +23,12 @@
   
   "consume": {
     "power": 50.0,
-    "itemsInput": [
+    "items": [
       {"item": "coal", "amount": 15},
       {"item": "sand", "amount": 15},
       {"item": "pyratite", "amount": 3}
     ],
-    "liquidInput": {
+    "liquid": {
       "liquid": "water",
       "amount": 1.0
     }
