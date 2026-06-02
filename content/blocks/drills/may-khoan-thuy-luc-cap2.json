@@ -16,7 +16,7 @@
 "consume":{
  "liquid":{
   "liquid":"water",
-  "amount":0.833,
+  "amount":1.833,
   "booster":false
  },
  "power":{
