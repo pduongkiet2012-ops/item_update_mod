@@ -1,0 +1,13 @@
+{
+type:geniricCrafter
+name:lò luyện hợp kimv2
+description:tự trải nghiem
+size:4
+buildTime:1400
+craftTime:3.0
+haelth:1400
+hasItem:true
+hasLiquid:false
+hasPower:true
+
+reqiudements: 
