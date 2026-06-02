@@ -22,18 +22,18 @@
   
   "consume": {
     "power": 3000.0,
-    "items": [
-      {"item": "coal", "amount": 10},
+    "itemsInput": [
+      {"item": "coal", "amount": 15},
       {"item": "sand", "amount": 15},
       {"item": "pyratite", "amount": 3}
     ],
-    "liquid": {
+    "liquidInput": {
       "liquid": "water",
       "amount": 0.1667
     }
   },
   
-  "outputItem": {"item": "silicon", "amount": 15},
+  "outputItem": {"item": "silicon", "amount": 17},
   
   "category": "crafting",
   "research": {
