@@ -1,0 +1,17 @@
+{
+  "type":"GenericCrafter",
+  "name":"máy nén than chì lớnc1",
+  "description":"",
+  "size":3,
+  "health":500,
+  "buildTime":20.0,
+  "craftTime":15.0,
+  "itemCapaticy":200,
+  "liquidCapaticy":100,
+  "hasItem":true,
+  "hasLiquids":true,
+  "hasPower":false,
+  "repuirements":[
+    {"item":"copper", "amount":30},
+    {"item":"lead", "amount":40},
+    
