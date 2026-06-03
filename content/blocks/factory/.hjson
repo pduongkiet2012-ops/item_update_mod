@@ -10,4 +10,32 @@ hasItem:true
 hasLiquid:false
 hasPower:true
 
-reqiudements: 
+reqiudements:[
+  copper/140
+  lead/140
+  silicon/140
+  titanium/140
+]
+
+consume:{
+  power:15
+    item:[
+      copper/15
+      lead/20
+      silicon/10
+      titanium/10
+]
+}
+
+outputItem:surge-alloy/6
+category:crafting
+
+research:{
+  parent:sugre-smelter
+  requirements:[
+    copper/1500
+    lead/2000
+    silicon/1000
+    titanium/1200
+]
+}
