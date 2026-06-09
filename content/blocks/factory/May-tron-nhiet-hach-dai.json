@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Máy Trộn Nhiệt Hạch Đại",
+  "description": "",
+  "size": 4,
+  "health": 1400,
+  "buildTime": 1200.0,
+  "craftTime": 30.0,
+  "hasItems": true,
+  "hasPower": true,
+  "itemCapacity": 120,
+  "requirements": [
+    { "item": "copper", "amount": 200 },
+    { "item": "lead", "amount": 180 },
+    { "item": "silicon", "amount": 130 }
+  ],
+  "consume": {
+    "power": 10.0,
+    "items": {
+      "items": [
+        { "item": "coal", "amount": 5 },
+        { "item": "lead", "amount": 10 },
+        { "item": "sand", "amount": 10 }
+      ]
+    }
+  },
+  "outputItem": { "item": "pyratite", "amount": 10 },
+  "category": "crafting",
+  "research": {
+    "parent": "pyratite-mixer",
+    "requirements": [
+      { "item": "copper", "amount": 2000 },
+      { "item": "lead", "amount": 1800 },
+      { "item": "silicon", "amount": 1300 }
+    ]
+  
+}
