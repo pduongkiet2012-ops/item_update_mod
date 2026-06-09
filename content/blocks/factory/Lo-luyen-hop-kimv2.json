@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+  "name": "Máy Làm Hợp Kim Đại",
+  "description": "Lò đúc hợp kim siêu cấp kích thước 4x4, công suất khổng lồ.",
+  "size": 4,
+  "health": 1600,
+  "buildTime": 1800.0,
+  "craftTime": 60.0,
+  "hasItems": true,
+  "hasPower": true,
+  "itemCapacity": 100,
+  "requirements": [
+    { "item": "copper", "amount": 140 },
+    { "item": "lead", "amount": 140 },
+    { "item": "silicon", "amount": 140 },
+    { "item": "titanium", "amount": 88 }
+  ],
+  "consume": {
+    "power": 15.0,
+    "items": {
+      "items": [
+        { "item": "copper", "amount": 15 },
+        { "item": "lead", "amount": 20 },
+        { "item": "silicon", "amount": 10 },
+        { "item": "titanium", "amount": 15 }
+      ]
+    }
+  },
+  "outputItem": { "item": "surge-alloy", "amount": 5 },
+  "category": "crafting",
+  "research": {
+    "parent": "surge-smelter",
+    "requirements": [
+      { "item": "copper", "amount": 2000 },
+      { "item": "lead", "amount": 2000 },
+      { "item": "silicon", "amount": 1600 },
+      { "item": "titanium", "amount": 1200 }
+    ]
+  }
+}
