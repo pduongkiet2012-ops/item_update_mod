@@ -1,3 +1,33 @@
+{
 "type":"GenericCrafter",
 "name":"máy trộn chât nổ",
-""
+"description":"",
+"size":3,
+"health":1200,
+"buidTime":1900,
+"craftTime":30,
+"hasItem":true,
+"hasPower":true,
+"itemCapacity":150,
+"requidements":[
+  {"item": "lead", "amount":90}
+  {"item":"silicon", "amount":180}
+  {"item":"graphite","amuont":200}
+],
+"consume":{
+  "power":35.0,
+   "item":{
+     "item":[
+      {"item":"pyratite", "amount":9}
+      {"item":"Spore Pod", "amount":13}
+    ]
+   }
+},
+"outputItem": { "item": "Blast Compound", "amount": 10 },
+"category": "crafting",
+"parent":"blast mixer"
+"requidement":[
+  {"item":"lead", "amount":1500}
+  {"item":"titanium","amount":900}
+]
+}
