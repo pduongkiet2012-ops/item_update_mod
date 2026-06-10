@@ -21,7 +21,7 @@
       {"item":"spore-cod", "amount":13}
     ]
 },
-"outputItem": { "item": "clast-compound", "amount": 10 },
+"outputItem": { "item": "blast-compound", "amount": 10 },
 "category": "crafting",
 "research":{
   "parent":"blast-mixer"
