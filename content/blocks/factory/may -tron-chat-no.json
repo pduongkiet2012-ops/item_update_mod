@@ -9,7 +9,6 @@
 "hasItem":true,
 "hasPower":true,
 "itemCapacity":150,
-"powerCapacity":300
 "requirements":[
   {"item": "lead", "amount":90}
   {"item":"silicon", "amount":180}
