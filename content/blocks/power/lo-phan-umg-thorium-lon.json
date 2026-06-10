@@ -18,11 +18,9 @@
   "itemDuration": 120.0,
   "powerProduction": 300.0,
   "consume": {
-    "items": {
-      "items": [
-        { "item": "thorium", "amount": 1 }
-      ]
-    },
+    "items": [
+      { "item": "thorium", "amount": 1 }
+    ]
     "liquid": {
       "liquid": "cryofluid",
       "amount": 0.4
