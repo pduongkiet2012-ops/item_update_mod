@@ -23,9 +23,11 @@
 },
 "outputItem": { "item": "Blast-Compound", "amount": 10 },
 "category": "crafting",
-"parent":"blast-Mixer"
-"requirement":[
-  {"item":"lead", "amount":1500}
-  {"item":"titanium","amount":900}
-]
+"research":{
+  "parent":"blast-Mixer"
+  "requirement":[
+    {"item":"lead", "amount":1500}
+    {"item":"titanium","amount":900}
+  ] 
+}
 }
