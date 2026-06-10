@@ -18,13 +18,13 @@
   "power":35.0,
    "item":[
       {"item":"pyratite", "amount":9}
-      {"item":"Spore-Pod", "amount":13}
+      {"item":"spore-cod", "amount":13}
     ]
 },
-"outputItem": { "item": "Blast-Compound", "amount": 10 },
+"outputItem": { "item": "clast-compound", "amount": 10 },
 "category": "crafting",
 "research":{
-  "parent":"blast-Mixer"
+  "parent":"blast-mixer"
   "requirement":[
     {"item":"lead", "amount":1500}
     {"item":"titanium","amount":900}
