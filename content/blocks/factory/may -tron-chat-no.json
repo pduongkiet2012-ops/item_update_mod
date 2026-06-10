@@ -17,7 +17,7 @@
 ],
 "consume":{
   "power":3.5,
-   "items":[
+   "items": [
       {"item":"pyratite", "amount":4}
       {"item":"spore-pod", "amount":7}
     ]
