@@ -21,7 +21,7 @@
       {"item":"spore-pod", "amount":7}
     ]
 },
-"outputItem": { "item": "blast-compound", "amount": 2 },
+"outputItem": { "item": "blast-compound", "amount": 7 },
 "category": "crafting",
 "research":{
   "parent":"blast-mixer"
