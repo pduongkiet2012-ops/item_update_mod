@@ -16,9 +16,9 @@
 ],
 "consume":{
   "power":35.0,
-   "item":[
+   "items":[
       {"item":"pyratite", "amount":9}
-      {"item":"spore-cod", "amount":13}
+      {"item":"spore-pod", "amount":13}
     ]
 },
 "outputItem": { "item": "blast-compound", "amount": 10 },
