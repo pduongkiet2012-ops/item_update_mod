@@ -16,16 +16,14 @@
 ],
 "consume":{
   "power":35.0,
-   "item":{
-     "item":[
+   "item":[
       {"item":"pyratite", "amount":9}
       {"item":"Spore-Pod", "amount":13}
     ]
-   }
 },
 "outputItem": { "item": "Blast-Compound", "amount": 10 },
 "category": "crafting",
-"parent":"blast-mixer"
+"parent":"blast-Mixer"
 "requirement":[
   {"item":"lead", "amount":1500}
   {"item":"titanium","amount":900}
