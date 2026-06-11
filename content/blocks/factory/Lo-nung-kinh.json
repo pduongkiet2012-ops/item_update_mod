@@ -20,8 +20,9 @@
   ]
 },
 "outputItem":"metaglass", "amount":10,
-"garetory":crafter,
+"garetory":crafting,
 "research":{
+  "parent":"Kiln"
   "requirements":[
     {"item":"copper", "amount":900},
     {"item":"lead", "amount":1300}
