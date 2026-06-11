@@ -10,17 +10,17 @@
 "hasPower":true,
 "requirements":[
   {"item":"copper", "amount":100},
-  {"item":"lead", "amount":}
+  {"item":"lead", "amount":1300}
 ],
-"consume":{
+"consumes":{
   "power":70
-  "item":[
+  "items":[
     {"item":"lead", "amount":6},
     {"item":"sand", "amount":10}
   ]
 },
-"outputItem":"metaglass", "amount":10,
-"garetory":crafting,
+"outputItem":{"metaglass", "amount":10},
+"category":"crafting",
 "research":{
   "parent":"Kiln"
   "requirements":[
