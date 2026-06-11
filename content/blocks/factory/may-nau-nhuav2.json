@@ -22,6 +22,7 @@
   ],
   "liquid":[
     {"liquid":"oil", "amount":0.5}
+  ]
 },
 "outputItem":{"item":"plastanium", "amount":10},
 "category":"crafting",
