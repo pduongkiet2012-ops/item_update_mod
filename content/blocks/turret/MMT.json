@@ -1,0 +1,32 @@
+{
+"type":"itemTurret",
+"name":"MMT",
+"description":"",
+"size":1,
+"health":300,
+"timebuild":36,
+"category":"turret",
+"range":110,
+"reload":4.0,
+"recoil":1.0,
+"shootCone":8,
+"rotateSpeed":7,
+"targetAir":true,
+"targetGruond":true,
+"requirements":[
+  {"item":"copper", "amount":45}
+  {"item":"lead", "amount":15}
+],
+"ammorType":{
+  "copper":{
+    "type":basicBulletType
+    "speed":7,
+    "dameger":27.7,
+    "width":3,
+    "height":5,
+    "lifetime":15.79,
+    "pierce":true,
+    "pierceCap":1.0
+  }
+}
+}
