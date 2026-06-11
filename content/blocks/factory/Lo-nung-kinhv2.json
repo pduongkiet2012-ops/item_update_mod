@@ -19,7 +19,7 @@
     {"item":"sand", "amount":10}
   ]
 },
-"outputItem":{"metaglass", "amount":10},
+"outputItem":{"item":"metaglass", "amount":10},
 "category":"crafting",
 "research":{
   "parent":"Kiln"
