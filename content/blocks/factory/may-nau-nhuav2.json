@@ -7,7 +7,7 @@
 "buildTime":960,
 "craftTime":80,
 "hasItems":true,
-"hasLiquid":true,
+"hasLiquids":true,
 "hasPower":true,
 "requirements":[
   {"item":"lead", "amount":300},
@@ -20,11 +20,9 @@
   "items":[
     {"item":"lead", "amount":6}
   ],
-  "liquid":[
-    {"liquid":"oil", "amount":0.5}
-  ]
+  "liquid": {"liquid":"oil", "amount":0.5}
 },
-"outputItem":{"item":"plastanium", "amount":10},
+"outputItems":{"item":"plastanium", "amount":10},
 "category":"crafting",
 "research":{
   "parent":"plastanium-compressor"
