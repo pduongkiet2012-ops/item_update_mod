@@ -1,3 +1,4 @@
+{
 "type":"geniricCrafter",
 "name": "lò nung kính",
 "description":"",
@@ -5,4 +6,25 @@
 "health":1200,
 "buildTimes":780,
 "craftTimes":60,
-"reco"
+"hasItems":true,
+"hasPower":true,
+"requirements":[
+  {"item":"copper", "amount":100},
+  {"item":"lead", "amount":}
+],
+"consume":{
+  "power":70
+  "item":[
+    {"item":"lead", "amount":6},
+    {"item":"sand", "amount":10}
+  ]
+},
+"outputItem":"metaglass", "amount":10,
+"garetory":crafter,
+"research":{
+  "requirements":[
+    {"item":"copper", "amount":900},
+    {"item":"lead", "amount":1300}
+  ]
+}
+}
