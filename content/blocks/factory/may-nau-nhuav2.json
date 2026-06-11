@@ -21,9 +21,9 @@
     {"item":"lead", "amount":6}
   ],
   "liquid":[
-    {"liquid":"oil", "amount":}
+    {"liquid":"oil", "amount":0.5}
 },
-"outputItem":{"metaglass", "amount":10},
+"outputItem":{"plastanium", "amount":10},
 "category":"crafting",
 "research":{
   "parent":"plastanium-compressor"
