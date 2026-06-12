@@ -6,6 +6,8 @@
 "health":1500,
 "buildTime":960,
 "craftTime":80,
+"itemcapacity":150,
+"liquidcapacity":75,
 "hasItems":true,
 "hasLiquids":true,
 "hasPower":true,
@@ -18,9 +20,9 @@
 "consumes":{
   "power":70
   "items":[
-    {"item":"lead", "amount":6}
+    {"item":"titanium", "amount":13}
   ],
-  "liquid": {"liquid":"oil", "amount":0.5}
+  "liquid": {"liquid":"oil", "amount":0.35}
 },
 "outputItems":{"item":"plastanium", "amount":10},
 "category":"crafting",
