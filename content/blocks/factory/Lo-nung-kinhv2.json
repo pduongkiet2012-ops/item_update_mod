@@ -6,6 +6,7 @@
 "health":1200,
 "buildTimes":780,
 "craftTimes":60,
+"itemCapacity":130,
 "hasItems":true,
 "hasPower":true,
 "requirements":[
