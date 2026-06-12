@@ -1,3 +1,4 @@
+{
 "type":drill,
 "name":"may khoan chat no",
 "description":"",
@@ -9,5 +10,30 @@
 "hasLiquids":true,
 "hasPower":true,
 "requirements":[
-  {"item":"copper", "amount":100}
-  {"item":""}
+  {"item":"copper", "amount":100},
+  {"item":"silicon", "amount":70},
+  {"item":"thorium", "amount":60},
+  {"item":"titanium", "amount":40}
+],
+"consumes":{
+  "liquid":{ "liquid":"water",
+    "amount":0.125,
+    "booster":true,
+    "optional": true}
+  "power":{
+    "usage":3.33,
+    "buffered":false,
+    "optional":true
+  }
+},
+"research":{
+ "parent":"blast-drill",
+ "reqiurements":[
+  {"item":"copper", "amount":4000}
+  {"item":"thorium", "amount":2000}
+  {"item":"silicon", "amount":3600}
+  {"item":"titanium", "amount":1700}
+ ],
+},
+"category":"production"
+}
