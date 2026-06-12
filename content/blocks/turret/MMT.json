@@ -19,7 +19,7 @@
 ],
 "ammorType":{
   "copper":{
-    "type":basicBulletType
+    "type":"basicBulletType"
     "speed":7,
     "dameger":27.7,
     "width":3,
