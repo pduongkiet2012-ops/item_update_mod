@@ -1,0 +1,57 @@
+{
+  "type":"ItemTurret",
+  "name":"fuild guan", 
+  "description":"",
+  "size":3,
+  "health":900,
+  "hasItems":true,
+  "hasLiquids":true,
+  "cagegory":"turret",
+  "ammoPerShot":1,
+  "range":200,
+  "reloadTime":15,
+  "recoil":6.0,
+  "rotateSpeed":10,
+  "consumes":[
+    {"liquid":"water","amount":6.6,
+      "booster":true,
+      "optional":true},
+    {"liquid":"cryofluid","amount":6.6,
+      "booster":true,
+      "optional":true}
+  ],
+  "ammoType":{
+    "lead":{
+      "type":"basicBulletType",
+      "damage":20,
+      "speed":10,
+      "lifeTime":20,
+      "width":7.0,
+      "height":9.0
+    },
+    "metaglass":{
+      "type":"basicBulletType",
+      "damage":30,
+      "speed":13,
+      "lifeTime":15.4,
+      "width":6,
+      "height":9
+    },
+    "surge-alloy":{
+      "type":"basicBlluetType",
+      "damage":100,
+      "speed":8,
+      "lifeTime":25,
+      "width":13,
+      "height":16,
+
+      "lightning":4,
+      "Lightninglength":10,
+      "lightningdamage":30,
+      "lightningcolor":"f3e979",
+      "hitEffect":"hitLancer",
+      "status":"shocked",
+      "stetusDuration":60
+    }
+  }
+}
