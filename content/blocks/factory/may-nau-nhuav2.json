@@ -18,7 +18,7 @@
   {"item":"titanium", "amount":200}
 ],
 "consumes":{
-  "power":70
+  "power":70,
   "items":[
     {"item":"titanium", "amount":13}
   ],
@@ -27,7 +27,7 @@
 "outputItems":{"item":"plastanium", "amount":10},
 "category":"crafting",
 "research":{
-  "parent":"plastanium-compressor"
+  "parent":"plastanium-compressor",
   "requirements":[
     {"item":"lead", "amount":4200},
     {"item":"graphite", "amount":2300},
