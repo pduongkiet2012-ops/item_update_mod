@@ -14,7 +14,7 @@
   {"item":"lead", "amount":1300}
 ],
 "consumes":{
-  "power":70
+  "power":70,
   "items":[
     {"item":"lead", "amount":6},
     {"item":"sand", "amount":10}
@@ -23,7 +23,7 @@
 "outputItem":{"item":"metaglass", "amount":10},
 "category":"crafting",
 "research":{
-  "parent":"Kiln"
+  "parent":"Kiln",
   "requirements":[
     {"item":"copper", "amount":900},
     {"item":"lead", "amount":1300}
