@@ -1,5 +1,5 @@
 {
-"type":"geniricCrafter",
+"type":"GeniricCrafter",
 "name": "lò nung kính",
 "description":"",
 "size":3,
@@ -11,7 +11,7 @@
 "hasPower":true,
 "requirements":[
   {"item":"copper", "amount":100},
-  {"item":"lead", "amount":1300}
+  {"item":"lead", "amount":270}
 ],
 "consumes":{
   "power":70,
