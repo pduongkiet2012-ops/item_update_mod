@@ -53,5 +53,13 @@
       "status":"shocked",
       "stetusDuration":60
     }
+  },
+  "rearch":{
+    "parent":"",
+    "requirements":[
+      {"item":"copper","amount":200},
+      {"item":"lead","amount":400},
+      {"item":"titanium","amount":400},
+      {"item":"silicon","amount":190}
   }
 }
