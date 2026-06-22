@@ -1,3 +1,4 @@
+{
 "type":"drills",
 "name":"khoan ao",
 "descriptions":"",
@@ -7,6 +8,7 @@
 "timeBuild"1000,
 "hasPower":true,
 "hasliquids":true,
+"itemCapacity":390,
 "requirements":[
  {"item":"copper", "amount":300},
  {"item":"silicon", "amount":500},
@@ -17,7 +19,9 @@
  "power":20,
  "liquid":[
   {"liquid":"water", "amount":0.7},
-  {"liquid":"cryoLiquid", "amount":0.6}
+  {"liquid":"cryoLiquid", "amount":0.6},
+  "optional":true
  ]
 }
+ 
 }
