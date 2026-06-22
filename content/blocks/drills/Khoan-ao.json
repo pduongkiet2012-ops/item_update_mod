@@ -1,0 +1,23 @@
+"type":"drills",
+"name":"khoan ao",
+"descriptions":"",
+"size":4,
+"health":3000,
+"timeDrill":100,
+"timeBuild"1000,
+"hasPower":true,
+"hasliquids":true,
+"requirements":[
+ {"item":"copper", "amount":300},
+ {"item":"silicon", "amount":500},
+ {"item":"thorium", "amount":450},
+ {"item":"mataglass", "amount":600}
+]
+"consumes":{
+ "power":20,
+ "liquid":[
+  {"liquid":"water", "amount":0.7},
+  {"liquid":"cryoLiquid", "amount":0.6}
+ ]
+}
+}
